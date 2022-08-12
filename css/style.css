@@ -1,0 +1,29 @@
+:root{
+    --prymory-color: #000000;
+    --color-text: #18A0FB;
+}
+
+body{
+    background-color: #fff;
+}
+
+.logo{
+    color: var(--prymory-color);
+}
+
+.list{
+    list-style: none;
+}
+
+.site-nave .link{
+    color: var(--color-text);
+}
+
+.site-nave .link:hover,
+.site-nave .link:focus{
+    color: var(--prymory-color);
+}
+
+.section-title{
+    color: var(--prymory-color);
+}

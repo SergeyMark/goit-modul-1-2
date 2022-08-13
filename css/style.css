@@ -1,29 +1,85 @@
+/* Fonts all
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Comfortaa', cursive;
+
+*/
+
+
 :root{
     --prymory-color: #000000;
     --color-text: #18A0FB;
+    --bg-color: #fff;
+    --secondary-color: rgba(0, 0, 0, 0.8);
 }
 
 body{
-    background-color: #fff;
+    background-color: var(--bg-color);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;    
+}
+
+ul{
+    list-style: none;
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-text);
 }
 
 .logo{
     color: var(--prymory-color);
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 28px;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+} 
+
+.link{
 }
 
-.list{
-    list-style: none;
+.btn.register, .join{
+    background-color: var(--color-text);
+    color: var(--bg-color);
 }
 
-.site-nave .link{
-    color: var(--color-text);
-}
-
-.site-nave .link:hover,
-.site-nave .link:focus{
-    color: var(--prymory-color);
+.hero-title{
+    text-align: center;
+    font-size: 56px;
+    line-height: 1.43;
+    letter-spacing: -0.015em;
 }
 
 .section-title{
+    font-size: 48px;
+    line-height: 1.5;    
+    letter-spacing: -0.015em;
+    color: var(--prymory-color);
+    text-align: center;
+}
+
+.section-text{
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: -0.015em;
+    color: var(--prymory-color);
+}
+
+.subtitle-text{
+    font-size: 36px;
+    line-height: 1.40;    
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: var(--secondary-color);
+}
+
+.footer-list .footer-link{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: -0.015em;
     color: var(--prymory-color);
 }

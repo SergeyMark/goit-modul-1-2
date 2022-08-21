@@ -23,12 +23,25 @@ ul{
     list-style: none;
     font-size: 15px;
     line-height: 1.2;
+
+    margin: 0;
+    padding: 0;
 }
 
 a{
     text-decoration: none;
     color: var(--color-text);
 }
+
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* header */
+
+
 
 .logo{
     color: var(--prymory-color);
@@ -38,19 +51,64 @@ a{
     letter-spacing: -0.015em;
 } 
 
-.link{
+.btn{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: calc(18 / 15);
+    letter-spacing: -0.015em;
+    
+    display: inline-block;
+    padding: 11px 34px;
+    min-width: 130px;
+
+    text-align: center;
+
+    border: 1px solid var(--color-text);
+    border-radius: 6px;
+    
+    color: var(--color-text);
 }
 
-.btn.register, .join{
+.btn.register,
+.join{
     background-color: var(--color-text);
     color: var(--bg-color);
 }
 
-.hero-title{
+/* hero */
+
+.hero{
     text-align: center;
+}
+
+.hero-title{
+    margin-top: 0;
+    margin-bottom: 40px;
+
     font-size: 56px;
     line-height: 1.43;
     letter-spacing: -0.015em;
+}
+
+.join{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 17px;
+    line-height: calc(21 / 17);
+    letter-spacing: -0.015em;
+    
+    color: var(--bg-color);
+
+    display: inline-block;
+    padding: 15px 40px;
+    border-radius: 6px;
+}
+
+/* features */
+
+.features{
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .section-title{
@@ -58,25 +116,79 @@ a{
     line-height: 1.5;    
     letter-spacing: -0.015em;
     color: var(--prymory-color);
-    text-align: center;
+
+    margin-top: 0;
+    margin-bottom: 60px;
 }
+
+.features-title,
+.work-title{
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+/* work */
 
 .section-text{
     font-size: 18px;
     line-height: 1.67;
     letter-spacing: -0.015em;
     color: var(--prymory-color);
+
+    margin-top: 0;
+    margin-bottom: 32px;
 }
 
-.subtitle-text{
+.work-list > .item{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.work-list > .item:nth-child(2n){
+    background-color: #ccc;
+}
+
+/* clients */
+
+.clients{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.clients-title{
+    font-size: 48px;
+    line-height: 1.5;
+    letter-spacing: -0.015em;
+    color: var(--prymory-color);
+
+    text-align: center;
+
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.subtitle-text {
     font-size: 36px;
-    line-height: 1.40;    
+    line-height: 1.40;
     text-align: center;
     letter-spacing: -0.015em;
     color: var(--secondary-color);
+
+    margin-top: 0;
+    margin-bottom: 80px;
 }
 
-.footer-list .footer-link{
+/* join */
+
+.section-join{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+
+
+/* footer */
+
+.footer-list .footer-link {
     font-weight: 700;
     font-size: 15px;
     line-height: 1.6;

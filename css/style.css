@@ -41,7 +41,10 @@ a{
 
 /* header */
 
-
+.main-nav{
+    display: flex;
+    align-items: center;
+}
 
 .logo{
     color: var(--prymory-color);
@@ -50,6 +53,30 @@ a{
     line-height: 1.15;
     letter-spacing: -0.015em;
 } 
+
+.site-nave{
+    display: flex;
+    margin-left: 70px;
+}
+
+.site-nave .site-item + .site-item{
+    margin-left: 40px;
+}
+
+.link{
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+
+.login-nave{
+    display: flex;
+    margin-left: auto;
+}
+
+.login-nave .item + .item{
+    margin-left: 12px;
+}
 
 .btn{
     font-weight: 500;
